@@ -55,7 +55,6 @@ def directory_stat(path: str) -> List[int]:
 
 
 if __name__ == '__main__':
-
     #1
     root = os.path.abspath(os.sep)
     print(files_in_directory(os.path.join(root, 'Users\dk.loshkin\Documents')))

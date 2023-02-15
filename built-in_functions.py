@@ -131,7 +131,6 @@ def happy_ticket_counter() -> int:
 
 
 if __name__ == '__main__':
-
     #1
     print(a_hater('abcdAbc'))
 

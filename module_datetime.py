@@ -78,6 +78,7 @@ def change_month(text_date: str, month: int) -> str:
 
 
 if __name__ == '__main__':
+
     #1
     five_days_feature = datetime.today() + timedelta(days=5)
     print(five_days_feature.strftime("%d.%m.%y"))
